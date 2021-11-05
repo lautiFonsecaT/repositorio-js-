@@ -1,0 +1,53 @@
+/*FUENTES
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(6, 6, 21) ;
+}
+.saludo{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.saludo h1{
+    font-size: 4rem;
+    color: rgb(132, 185, 255);
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    
+}
+.saludo .animate__fadeInDown{
+    animation-duration: 1.5s; 
+
+}
+
+.saludo p{
+    font-size: 2rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.741);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.saludo .animate__fadeIn{
+    animation-duration: 1.5;
+    animation-delay: 0.4s;
+}
